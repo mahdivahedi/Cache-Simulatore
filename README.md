@@ -4,15 +4,15 @@ This Project is Simulatore of Cache. it will detect the misses and writes in mai
 
 16 - 0 - 8 - wb - wa
 256
-0 00000 data read miss (compulsory)
-0 10000 data read miss (compulsory, replaces 00000 if assoc=1)
-0 00000 data read miss (hit if assoc >= 2)
-0 20000 data read miss (compulsory, replaces 10000 if assoc=1)
-0 30000 data read miss (compulsory, replaces 20000 if assoc=1)
-0 00000 data read miss (hit if assoc >= 4)
-0 10000 data read miss (hit if assoc >= 4)
-0 20000 data read miss (hit if assoc >= 4)
-0 30000 data read miss (hit if assoc >= 4)
+0 00000 
+0 10000 
+0 00000 
+0 20000 
+0 30000 
+0 00000 
+0 10000 
+0 20000 
+0 30000 
 
 first  is block size
 second is cache type (Harvard[0] or von neumann [1])
