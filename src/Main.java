@@ -398,7 +398,6 @@ public class Main {
                         break;
 
                     case "WRITE BACK":
-                        copiesBack += BLOCK_SIZE / 4;
                         block.isDirty = true;
                         break;
                 }
@@ -413,7 +412,6 @@ public class Main {
                 block = dataBlocks[setNumber][index];
                 block.tag = tag;
                 block.isEmpty = false;
-                demandFetch++;
 
                 // Check the replacement policy.
                 switch (WRITE_POLICY) {
