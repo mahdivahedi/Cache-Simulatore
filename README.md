@@ -1,6 +1,6 @@
 # Cache-Simulatore
 
-This Project is Simulatore of Cache. it will detect the misses and writes in main memory and it takes inputs like this:
+This Project is Simulator of Cache. it will detect the misses and writes in main memory and it takes inputs like this:
 
 16 - 0 - 8 - wb - wa
 256
